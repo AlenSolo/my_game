@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    /*background-color: rgb(241, 228, 211);*/
+    background-image: url("pattern.png");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.a1 {
+    text-decoration: none;
+    color: #fff;
+}
+
+.card-title {
+    color: rgb(65, 215, 138);
+    font-size: 35px;
+}
+
+.card {
+    width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgb(131, 119, 119);
+    border-radius: 30px;
+}
+
+.card-foto {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgb(22, 19, 19);
+}
+
+.card-title1 {
+    text-align: left;
+    font-size: 20px;
+    color: rgb(65, 215, 138);
+}
+
+.card-list {
+    list-style-type: none;
+}
+
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 35px;
+    box-shadow: 0 10px #999;
+}
+
+.button:hover {
+    background-color: #3e8e41
+}
+
+.button:active {
+    color: #fff;
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px) translateX(18px);
+
+}
